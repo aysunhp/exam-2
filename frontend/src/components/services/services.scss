@@ -1,0 +1,57 @@
+.services{
+    width: 100%;
+    .container{
+width: 90%;
+padding: 50px 0px;
+
+.welcome-heading-section{
+    display: flex;
+    flex-direction: column;
+    svg{
+        margin-bottom: 30px;
+    }
+    .welcome-heading{
+        font-family: Helvetica, sans-serif;
+        margin: 0px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // gap:0px;
+        .line{
+          border-top: 1px solid #FFC515;
+          width:10%  ;
+        }
+        h1{
+            font-size: 40px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+}
+
+.meals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+
+    .meal{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    svg{
+        color:#FFC515;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    }
+}
+
+
+
+    }
+}

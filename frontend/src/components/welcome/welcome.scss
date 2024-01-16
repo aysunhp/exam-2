@@ -1,0 +1,64 @@
+.welcome{
+    width: 100%;
+    .container{
+width: 80%;
+padding: 50px 0px;
+
+.welcome-heading-section{
+    display: flex;
+    flex-direction: column;
+    svg{
+        margin-bottom: 30px;
+    }
+    .welcome-heading{
+        font-family: Helvetica, sans-serif;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:0px;
+        .line{
+          border-top: 1px solid #FFC515;
+          width:20%  ;
+        }
+        h1{
+            font-size: 40px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+}
+
+.years{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+
+    .year{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    }
+}
+
+
+.sign-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .sign-img{
+        width: 30%;
+  height: 100px;
+  background-repeat: no-repeat;
+        background-image: url("./../../assets/images//sign.png");
+    };
+   margin-top: 50px;
+};
+
+    }
+}

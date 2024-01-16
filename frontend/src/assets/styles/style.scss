@@ -1,0 +1,46 @@
+*{
+    font-family:Helvetica, sans-serif
+}
+
+
+header{
+    width: 100%;
+    position: fixed;
+  
+    .conatiner{
+
+        display: flex;
+       align-items: center;
+        .left-sect{
+            flex:1;
+            border:1px solid lightgray;
+            padding: 30px;
+          color: white;
+            font-size: 40px;
+            span{
+                color:#FFC515;
+                font-size: 60px;
+            }
+        }
+        .right-sect{
+            flex:3;
+            border:1px solid lightgray;
+            padding: 55px;
+            color:white;
+            ul{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                gap:20px;
+                li{
+                    font-size: 16px;
+                    font-weight: 400;
+list-style:none;
+&:hover{
+    color:#121725
+}
+                }
+            }
+        }
+    }
+}
